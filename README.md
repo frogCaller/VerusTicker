@@ -1,5 +1,5 @@
 # Verus Ticker on Pi
-![](images/verusTicker.jpeg)
+<img src="images/verusTicker.jpeg" alt="tinySetup1" width="300">
 
 
 # Materials
