@@ -8,7 +8,7 @@
 (x1) [2.23inch OLED HAT](https://amzn.to/3V2gCKb)<br />
 (x1) [90-degree GPIO extenders & splitter](https://amzn.to/3Uooea9)<br />
 
-__Optional to mine verus__ <br />
+__Optional - to mine verus__ <br />
 (x1) [Raspberry Pi 5](https://amzn.to/3PGuwie) <br />
 (x1) [Micro SD Cards](https://amzn.to/3uGUxX8)<br />
 (x1) [CPU heatsink](https://amzn.to/3OGf84X)<br />
