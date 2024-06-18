@@ -1,3 +1,7 @@
+# DISPLAY FORTUNE ON SCREEN
+# MAKE SURE TO FORTUNE IS INSTALLED
+# sudo apt install fortune -y
+
 import time
 import os
 import logging
