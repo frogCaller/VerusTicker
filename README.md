@@ -10,7 +10,6 @@
 
 __Optional - to mine verus__ <br />
 * [Raspberry Pi 5](https://amzn.to/3PGuwie) <br />
-* [Micro SD Cards](https://amzn.to/4erXgWD)<br />
 * [CPU heatsink](https://amzn.to/3OGf84X)<br />
 
 <br />
