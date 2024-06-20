@@ -3,15 +3,15 @@
 
 
 # Materials
-(x1) [Raspberry Pi Zero WH](https://amzn.to/49mZVxC) or [Zero 2 WH](https://amzn.to/3Ov69Dm)<br />
-(x1) [Micro SD Cards](https://amzn.to/48bSKY8)<br />
-(x1) [2.23inch OLED HAT](https://amzn.to/3V2gCKb)<br />
-(x1) [90-degree GPIO extenders](https://amzn.to/3Uooea9)<br />
+* [Raspberry Pi Zero WH](https://amzn.to/49mZVxC) or [Zero 2 WH](https://amzn.to/3Ov69Dm)<br />
+* [Micro SD Cards](https://amzn.to/4erXgWD)<br />
+* [2.23inch OLED HAT](https://amzn.to/3V2gCKb)<br />
+* [90-degree GPIO extenders](https://amzn.to/3Uooea9)<br />
 
 __Optional - to mine verus__ <br />
-(x1) [Raspberry Pi 5](https://amzn.to/3PGuwie) <br />
-(x1) [Micro SD Cards](https://amzn.to/3uGUxX8)<br />
-(x1) [CPU heatsink](https://amzn.to/3OGf84X)<br />
+* [Raspberry Pi 5](https://amzn.to/3PGuwie) <br />
+* [Micro SD Cards](https://amzn.to/4erXgWD)<br />
+* [CPU heatsink](https://amzn.to/3OGf84X)<br />
 
 <br />
 (Amazon affiliate links)<br />
