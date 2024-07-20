@@ -2,7 +2,7 @@
 ## and fetch your current verus stats. (current hashrate, current balance, total balance)
 ## Feel free to modify the code to your likings! :) 
 
-## PLEASE ADD YOUR VERUS WALLET ON LINE 45:
+## PLEASE ADD YOUR VERUS WALLET ON LINE 41:
 ## my_Verus_Wallet = "YOUR_VERUS_WALLET"
 
 
