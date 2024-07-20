@@ -15,11 +15,7 @@ import logging
 from datetime import datetime
 import json
 import subprocess
-sys.path.append('/home/pi/python/screen/drive')
 from bs4 import BeautifulSoup
-libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'drive')
-if os.path.exists(libdir):
-    sys.path.append(libdir)
 import spidev
 from drive import SSD1305
 from PIL import Image,ImageDraw,ImageFont
