@@ -44,7 +44,7 @@ __Mine Verus coin__ <br />
 2. Clone the repository:
    ```bash
    sudo apt install git -y
-   git clone https://github.com/frogCaller/VerusTicker.git
+   git clone https://github.com/frogCaller/verus-stats-2.23inch.git
    cd VerusTicker
 
 3. Set up Verus mining (on Pi 5) 
