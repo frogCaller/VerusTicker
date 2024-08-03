@@ -8,10 +8,6 @@ This project uses a 2.23-inch OLED HAT with a Raspberry Pi to display Verus mini
 * [2.23inch OLED HAT](https://amzn.to/3V2gCKb)<br />
 * [90-degree GPIO extenders](https://amzn.to/3Uooea9)<br />
 
-__Mine Verus coin__ <br />
-* [Raspberry Pi 5](https://amzn.to/3PGuwie) <br />
-* [CPU heatsink](https://amzn.to/3OGf84X)<br />
-
 <br />
 (Amazon affiliate links)<br />
 
