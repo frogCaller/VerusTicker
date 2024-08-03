@@ -53,8 +53,6 @@ def convert_to_th(input_hashrate):
         value, unit = input_hashrate.split()
         return float(value) * units[unit]
     except ValueError:
-        #print("Invalid input! Please enter a numerical value followed by units (e.g., 250 TH/s).")
-        #sys.exit(1)
         return float(0.00)*units["H/s"]
 
 def get_coin_price(coin_id, coin_name):
@@ -120,8 +118,23 @@ def main():
     verus_url = "https://luckpool.net/verus/miner/" + my_Verus_Wallet
 
     current_date = datetime.now()
-    draw.rectangle((0,0,width,height), outline=0, fill=0)
-    linetext(12, str(current_date.strftime("%B %d %Y  -  %-I:%M %p")))
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+
+    # Get the width of the date and time strings using getbbox
+    date_text = current_date.strftime("%B %d %Y")
+    time_text = current_date.strftime("%-I:%M %p")
+    date_bbox = font.getbbox(date_text)
+    time_bbox = font.getbbox(time_text)
+    date_width = date_bbox[2] - date_bbox[0]
+    time_width = time_bbox[2] - time_bbox[0]
+
+    # Calculate the X position to center the text
+    date_x = (width - date_width) // 2
+    time_x = (width - time_width) // 2
+
+    # Draw the centered text
+    draw.text((date_x, 8), date_text, font=font, fill=255)
+    draw.text((time_x, 16), time_text, font=font, fill=255)
 
     buffer(3)
 
