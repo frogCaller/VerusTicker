@@ -134,12 +134,12 @@ def main():
 
     if verus_data:
         verus_price = get_coin_price("verus-coin", "verus-coin")
-        current_amount = verus_price * verus_data['balance']:,.2f
-        total_amount = verus_price * verus_data['paid']:,.2f
+        current_amount = verus_price * verus_data['balance']
+        total_amount = verus_price * verus_data['paid']
         
         linetext(0, f"VRSC: ${verus_price:.2f}")
-        linetext(8, f"Amount: {verus_data['paid']:.3f}" + f" (${total_amount})")
-        linetext(16, f"Now: {verus_data['balance']:.4f}" + f" (${current_amount})")
+        linetext(8, f"Amount: {verus_data['paid']:.3f}" + f" (${total_amount:,.2f})")
+        linetext(16, f"Now: {verus_data['balance']:.4f}" + f" (${current_amount:,.2f})")
         linetext(24, f"RATE: {verus_data['hashrate']}/s")
         buffer(20)
 
