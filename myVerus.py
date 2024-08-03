@@ -1,10 +1,5 @@
-## This script will give you the current date and time
-## and fetch your current verus stats. (current hashrate, current balance, total balance)
-## Feel free to modify the code to your likings! :) 
-
-## PLEASE ADD YOUR VERUS WALLET ON LINE 41:
+## PLEASE ADD YOUR VERUS WALLET ON LINE 39:
 ## my_Verus_Wallet = "YOUR_VERUS_WALLET"
-
 
 import time
 import random
@@ -38,6 +33,9 @@ x = 0
 timeframe = 0.01
 font = ImageFont.truetype('04B_08__.TTF',8)
 
+###############################
+# ADD YOUR VERUS WALLET BELOW #
+###############################
 my_Verus_Wallet = "YOUR_VERUS_WALLET"
 
 def convert_to_th(input_hashrate):
