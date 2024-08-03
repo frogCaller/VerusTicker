@@ -78,9 +78,6 @@ def format_hash_rate(hash_rate):
         unit_index += 1
     return f"{hash_rate:.2f} {units[unit_index]}"
 
-def format_with_commas(number):
-    return f"{number:,.2f}"
-
 def convert_to_output_units(hash_rate_th):
     units = [
         (1e9, "ZH/s"),
@@ -137,14 +134,16 @@ def main():
 
     if verus_data:
         verus_price = get_coin_price("verus-coin", "verus-coin")
+        current_amount = verus_price * verus_data['balance']:,.2f
+        total_amount = verus_price * verus_data['paid']:,.2f
+        
         linetext(0, f"VRSC: ${verus_price:.2f}")
-        linetext(8, f"Amount: {verus_data['paid']:.3f}" + f" (${verus_price * verus_data['paid']:.2f})")
-        linetext(16, f"Now: {verus_data['balance']:.4f}" + f" (${verus_price * verus_data['balance']:.2f})")
+        linetext(8, f"Amount: {verus_data['paid']:.3f}" + f" (${total_amount})")
+        linetext(16, f"Now: {verus_data['balance']:.4f}" + f" (${current_amount})")
         linetext(24, f"RATE: {verus_data['hashrate']}/s")
         buffer(20)
 
         myVerus = convert_to_th(f"{verus_data['hashrate']}/s")
-
 
 if __name__ == "__main__":
     while True:
