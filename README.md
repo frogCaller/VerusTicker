@@ -47,7 +47,7 @@ This project uses a 2.23-inch OLED HAT with a Raspberry Pi to display Verus mini
 1. Edit `myVerus.py` and add your Verus Wallet Address:
   - Open myVerus.py in a text editor.
     ```
-    nano myVerus.py.py
+    nano myVerus.py
     ```
   - Locate the line where the wallet address is defined and replace the placeholder with your own Verus wallet address.
     ```
