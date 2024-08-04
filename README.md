@@ -43,10 +43,6 @@ This project uses a 2.23-inch OLED HAT with a Raspberry Pi to display Verus mini
    git clone https://github.com/frogCaller/verus-stats-2.23inch.git
    cd VerusTicker
 
-3. Set up Verus mining (on Pi 5) 
-
-    _[Source](https://github.com/monkins1010/ccminer/releases/tag/v3.8.3a)_
-   <br />
 # Usage Instructions
 1. Edit `myVerus.py` and add your Verus Wallet Address:
   - Open myVerus.py in a text editor.
