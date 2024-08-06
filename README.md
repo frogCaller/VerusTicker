@@ -29,7 +29,7 @@ This project uses a 2.23-inch OLED HAT with a Raspberry Pi to display Verus mini
    - sudo apt-get install python3-pip
    - sudo apt-get install python3-pil
    - sudo apt-get install python3-numpy
-   - sudo pip3 install spidev
+   - sudo apt-get install python3-spidev
    <br />
 
 # Wiring and Setup
